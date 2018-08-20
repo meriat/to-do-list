@@ -5,9 +5,9 @@ $(document).ready(function() {
     var input = $("#to-do").val();
 
     $("#list").append("<li><input type='checkbox' name='to-do'> " + input+ "</li>");
+    $(".completed").show();
     $("#list li").unbind('click').click(function() {
       $(this).remove();
-      console.log($(this).text());
       $("#completedList").append("<li>"+$(this).text()+"<li>");
     });
 

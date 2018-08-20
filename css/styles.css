@@ -5,3 +5,7 @@
 #list, #completedList{
 list-style-type: none;
 }
+
+.completed{
+  display: none;
+}
