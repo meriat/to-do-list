@@ -9,7 +9,9 @@
   </head>
   <body>
     <div class="container">
+      <div class="jumbotron">
       <h1>To Do List</h1>
+    </div>
 
       <div class="row">
         <div class="col-md-6">
@@ -17,21 +19,21 @@
           <form id="to-do-list">
               <input type="text" id="to-do" class="form-control">
 
-            <button type="submit" class="btn">Add</button>
+            <button type="submit" class="btn">Add-to-list</button>
           </form>
-          <h2>List</h2>
-        <ul id="list">
 
-        </ul>
+        <div class="list">
+          <h2> List </h2>
+          <ul id="list">
 
-          <!-- <div class="col-md-6">
-  <div id="show-contact">
-    <h2></h2>
+          </ul>
+        </div>
 
-    <p>First name: <span class="first-name"></span></p>
-    <p>Last name: <span class="last-name"></span></p>
-  </div>
-</div> -->
+        <div class="completed">
+            <h2>Completed</h2>
+            <ul id ="completedList"></ul>
+        </div>
+
         </div>
       </div>
     </div>

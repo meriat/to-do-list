@@ -1,12 +1,7 @@
-.to {
-  cursor: pointer;
-  color: #0088cc;
+#to-do{
+  margin-bottom: 30px;
 }
 
-.to:hover {
-  text-decoration: underline;
-}
-
-#list{
+#list, #completedList{
 list-style-type: none;
 }
