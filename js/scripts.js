@@ -4,7 +4,11 @@ $(document).ready(function() {
     event.preventDefault();
     var input = $("#to-do").val();
 
-    $("#list").append("<br><input type='checkbox'> " + input);
-  });
-  
+    $("#list").append("<li><input type='checkbox' name='to-do'> " + input+ "</li>");
+    $("#list li").unbind('click').click(function() {
+      $(this).remove();
+    });
+    
+});
+
 });
